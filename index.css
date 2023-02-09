@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    color: rgb(220, 27, 53);
+    font-size: large;
+}
+
+.panier {
+    display: grid;
+    gap: 10px;
+    
+}
+
+
+.rouge1 {
+    display: flex;
+    border: 1Px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.rouge2 {
+    display: flex;
+    border: 1Px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.rouge3 {
+    display: flex;
+    border: 1Px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.material-symbols-sharp {
+ float: left;
+ margin-top: 2.4rem;
+ cursor: pointer;
+}
+.material-symbols-sharp:hover {
+    color: red;
+    transform: scale(1);
+}
+
+
+h2, p, .delete {
+    align-self: center;
+    font-weight: 100;
+}
+
+.del{
+    cursor: pointer;
+}
+
+
+.info {
+    align-self: center;
+
+}
+
+.btn-moins, .btn-plus {
+    border: 1px solid rgba (231, 65, 43, 0.178);
+    background-color: white;
+    color : rgb(231, 65, 43);
+    cursor: pointer;
+
+}
+
+input {
+    width: 10%;
+    text-align: center;
+}
+
+#total {
+    text-align: center;
+    text-decoration: underline;
+}
+
